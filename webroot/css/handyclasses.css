@@ -10,7 +10,7 @@ body, html {
     background-image: url('../images/back/blur.jpg');
 
     /* Full height */
-    height: 100%; 
+    height: auto; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -20,10 +20,10 @@ body, html {
 }
 
 .caption {
-    position: absolute;
+    /* position: absolute;
     left: 0;
-    top: 50%;
-    width: 100%;
+    top: 70%; */
+    /* width: 100%; */
     text-align: center;
     color: #000;
   }
@@ -31,7 +31,7 @@ body, html {
   .caption span.border {
     background-color: #111;
     color: #fff;
-    padding: 18px;
+    padding: 1.5rem;
     font-size: 1.5em;
     letter-spacing: 10px;
   }
@@ -43,6 +43,10 @@ body, html {
   }
   .sum-notes.color {
       color: #fff;
+  }
+  .front-banner {
+    font-size: 2rem;
+    
   }
   .slide1 {
       
@@ -89,6 +93,9 @@ body, html {
 @media only screen and (max-device-width: 650px) {
     .par, .slide1, .slide2 {
         background-attachment: scroll;
+    }
+    .caption {
+      font-size: 1rem;
     }
 }
 .red-butt {
@@ -144,24 +151,8 @@ body, html {
 .sum-card.middle {
     width: 100%;
     height: 70px;
-    /* -webkit-border-top-left-radius: 1px;
-    -webkit-border-top-right-radius: 2px;
-    -webkit-border-bottom-right-radius: 3px;
-    -webkit-border-bottom-left-radius: 4px;
-  
-    -moz-border-radius-topleft: 1px;
-    -moz-border-radius-topright: 2px;
-    -moz-border-radius-bottomright: 3px;
-    -moz-border-radius-bottomleft: 4px;
-  
-    border-top-left-radius: 1px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 4px; */
     background-color: #e95c79;
     font-size: 2rem;
-    /* color: #e88a60; */
-    /* padding: 1rem 0; */
 }
 .sum-card.bottom {
     width: 100%;
